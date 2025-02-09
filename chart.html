@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+        h1 {
+            justify-self: center;
+            background: linear-gradient(80deg, rgb(128, 128, 128), rgb(248, 113, 221));
+            outline: 3px solid black;
+            padding: 15px;
+            border-radius: 25px;
+            width: 50%;
+        }
+
+        h2 {
+            margin-bottom: 2px;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40pt;
+            font-family: "Playfair Display", "Libre Baskerville", serif;
+            font-weight: 700;
+            margin-left: 100px;
+        }
+        h4{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: "Playfair Display", "Libre Baskerville", serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+
+        .box {
+            background-color: rgb(251, 246, 241);
+            height: 500px;
+            width: 350px;
+            display: inline-flex;
+            margin: 50px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            margin-bottom: 47px;
+
+        }
+
+        .boxbox1 {
+            background: linear-gradient(150deg, rgb(248, 157, 38), rgb(232, 44, 103));
+            height: 100px;
+            width: 100%;
+            border-radius: 30px 30px 0px 0px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+
+        .boxbox2 {
+            background: linear-gradient(150deg, rgb(94, 234, 247), blue);
+            height: 100px;
+            width: 100%;
+            border-radius: 30px 30px 0px 0px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            overflow: hidden;
+
+        }
+
+        .boxbox3 {
+            background: linear-gradient(150deg, rgb(73, 196, 220), rgb(67, 218, 142));
+            height: 100px;
+            width: 100%;
+            border-radius: 30px 30px 0px 0px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            overflow: hidden;
+
+        }
+
+        .co {
+            justify-content: center;
+            text-align: center;
+            align-content: center;
+            box-sizing: border-box;
+            display: flex;
+
+        }
+
+        .co>* {
+            margin: 10;
+            margin-left: 280%;
+            margin-bottom: 0;
+        }
+
+        #line1 {
+            margin-left: 330%;
+        }
+        .p1 i{
+            font-size:20px; color: orangered;
+        }
+        .p2 i{
+            font-size:20px; color: blue;
+
+        }
+        .p3 i{
+            font-size:20px; color: rgb(83, 211, 83);
+        }
+        table{
+            border-spacing: 10px;
+        }
+        .p1 table,.p2 table,.p3 table{
+            margin-left: 12px;
+            margin-top: 20px;
+        }
+        .period{
+            margin-left: 210px;
+        }
+        footer{
+            position: relative;
+            padding: 2px;
+            background: grey;
+        }
+        .box input{
+            outline: 1.5px solid black;
+            padding: 10px;
+            border-radius: 15px;
+            margin-top: 15px;
+            margin-left: 38%;
+            font-weight: bold;
+        }
+        #bn1{
+            background: linear-gradient(150deg, rgb(248, 157, 38), rgb(232, 44, 103));
+        }
+        #bn2{
+            background: linear-gradient(150deg, rgb(94, 234, 247), blue);
+        }
+        #bn3{
+            background: linear-gradient(150deg, rgb(73, 196, 220), rgb(67, 218, 142));
+        }
+    </style>
+</head>
+
+<body>
+    <strong>
+        <center><h1>Pricing Chart</h1></center>
+        <hr style="height: 1px; background-color: black;">
+    </strong>
+
+    <div class="container">
+        <div class="box1 box">
+            <div class="boxbox1">
+                <strong>
+                    <h2>BASIC</h2>
+                </strong>
+                <hr style="width: 70%; margin-bottom: 4px;">
+                <p style="font-size: 8pt;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat
+                    metus id tortor cursus sodales. </p>
+            </div>
+            <div class="co">
+                <h3>$20</h3>
+            </div>
+            <div class="period">
+                <strong><h4>/mo</h4></strong>
+            </div>
+            <div class="p1">
+                
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-check-circle"></i></td><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                            
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check-circle"></i></td><td> Mauris at diam fermentum, condimentum urna quis, aliquam risus. </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-check-circle"></i></td><td>dolor nisl cursus odio, sed pretium justo turpis varius quam.</td>
+                        </tr>
+                    </table>
+                
+            </div>
+            
+            <input id="bn1" type="button" value="BUY NOW">
+
+            
+        </div>
+        <div class="box2 box">
+            <div class="boxbox2">
+                <strong>
+                    <h2>STANDARD</h2>
+                </strong>
+                <hr style="width: 70%; margin-bottom: 4px;">
+                <p style="font-size: 8pt;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat
+                    metus id tortor cursus sodales. </p>
+            </div>
+            <div class="co">
+                <h3 id="line1">$35</h3>
+            </div>
+            <div class="period">
+                <strong><h4>/mo</h4></strong>
+            </div>
+            <div class="p2">
+                <table>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td> Mauris at diam fermentum, condimentum urna quis, aliquam risus. </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td>dolor nisl cursus odio, sed pretium justo turpis varius quam.</td>
+                    </tr>
+                </table>
+
+            </div>
+            <input  id="bn2" type="button" value="BUY NOW">
+            
+        </div>
+        <div class="box3 box">
+            <div class="boxbox3">
+                <strong>
+                    <h2>PREMIUM</h2>
+                </strong>
+                <hr style="width: 70%; margin-bottom: 4px;">
+                <p style="font-size: 8pt;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat
+                    metus id tortor cursus sodales. </p>
+            </div>
+            <div class="co">
+                <h3>$50</h3>
+            </div>
+            <div class="period">
+                <strong><h4>/mo</h4></strong>
+            </div>
+            <div class="p3">
+                <table>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td> Mauris at diam fermentum, condimentum urna quis, aliquam risus. </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-check-circle"></i></td><td>dolor nisl cursus odio, sed pretium justo turpis varius quam.</td>
+                    </tr>
+                </table>
+
+            </div>
+            <input id="bn3" type="button" value="BUY NOW">
+
+        </div>
+    </div>
+    <center><footer>copyright &copy by Hardik Jalan: Pricing chart</footer></center>
+</body>
+
+</html>
